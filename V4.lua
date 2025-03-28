@@ -514,7 +514,7 @@ do
 
 						while IsAlive do
 							HumanoidRootPart.AssemblyAngularVelocity = Vector3zero
-							HumanoidRootPart.AssemblyLinearVelocity = Vector3new(0, - 5, 0)
+							HumanoidRootPart.AssemblyLinearVelocity = Vector3new(0, 0, 0)
 							HumanoidRootPart.CFrame = RootPartCFrame
 
 							taskwait()
